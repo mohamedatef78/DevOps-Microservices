@@ -5,11 +5,15 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+export dockerpath=mohamedatef96/api-prediction
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login --username mohamedatef96
+docker tag api-prediction $dockerpath
+
 
 # Step 3:
 # Push image to a docker repository
+docker push $dockerpath
