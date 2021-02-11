@@ -1,1 +1,13 @@
-<paste log output from Kubernetes-mediated prediction, here>
+Flag --generator has been deprecated, has no effect and will be removed in the future.
+Error from server (AlreadyExists): pods "api-prediction" already exists
+NAMESPACE     NAME                               READY   STATUS    RESTARTS   AGE
+default       api-prediction                     1/1     Running   0          8m45s
+kube-system   coredns-74ff55c5b-qfdzx            1/1     Running   0          13m
+kube-system   etcd-minikube                      1/1     Running   0          13m
+kube-system   kube-apiserver-minikube            1/1     Running   0          13m
+kube-system   kube-controller-manager-minikube   1/1     Running   2          14m
+kube-system   kube-proxy-llphg                   1/1     Running   0          13m
+kube-system   kube-scheduler-minikube            1/1     Running   0          13m
+kube-system   storage-provisioner                1/1     Running   2          13m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
